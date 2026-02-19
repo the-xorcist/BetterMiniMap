@@ -1,36 +1,39 @@
 # BetterMinimap
 
-**Version:** 1.0.0  
+**Version:** 1.0.1  
 **Author:** noone  
 **Release Date:** 2026-02-18
 
 ## Description
 
-BetterMinimap enhances Erenshor's minimap with quality-of-life improvements including drag-and-drop repositioning, quick resize toggling, persistent settings, and a full-screen area map overlay for detailed zone navigation.
+BetterMinimap is a quality-of-life mod for Erenshor that enhances the minimap with improved movement, resizing, and area map functionality. Move your minimap freely without entering UI Edit Mode, toggle between sizes with a single click, and view detailed area maps for all overworld zones.
 
 ## Features
 
-- **Always Moveable** - Drag the minimap anywhere without entering UI Edit Mode using the diamond-shaped handle
-- **Quick Resize Toggle** - Right-click the minimap buttons to instantly switch between small and large sizes
-- **Position Persistence** - Minimap position and size preferences are automatically saved between sessions
-- **Area Map Overlay** - Press **M** to open a full-screen map showing detailed zone layouts for overworld areas
-- **Smart Map Fallback** - Automatically displays the world map for dungeons and instances without area maps
-- **Map Toggle Button** - Switch between Area Map and World Map views with a single click
+- **Always Moveable Minimap** - Drag the minimap anywhere on screen using the diamond-shaped handle below it, no UI Edit Mode required
+- **Quick Resize Toggle** - Right-click the minimap zoom buttons (+/−) to instantly toggle between small and large sizes
+- **Position & Size Persistence** - Your minimap position and size preferences are automatically saved between game sessions
+- **Area Map Overlay** - Press **M** to open a full-screen area map showing detailed zone layouts for all overworld areas
+- **Smart Map Fallback** - Automatically displays the world map when in dungeons or instances without dedicated area maps
+- **Toggle Between Views** - Switch between Area Map and World Map views with a convenient toggle button
 
 ## Installation
 
-1. Install [BepInEx 5](https://github.com/BepInEx/BepInEx/releases) for Erenshor
-2. Copy `BetterMinimap.dll` to `BepInEx/plugins/` folder
-3. Copy the `Assets` folder to `BepInEx/plugins/BetterMinimap/` folder
-4. Launch the game
+1. Install [BepInEx](https://github.com/BepInEx/BepInEx/releases) for Erenshor (version 5.x)
+2. Extract the BetterMinimap folder to `BepInEx/plugins/`
+3. Launch the game
 
-## Configuration
+The mod will automatically create a configuration file at `BepInEx/config/the-xorcist.betterminimap.cfg` on first run.
 
-Settings are automatically saved to `BepInEx/config/the-xorcist.betterminimap.cfg`:
+## Changelog
 
-- **PositionX/PositionY** - Saved minimap position
-- **IsBigMap** - Minimap size preference (small/large)
-- **AreaMapKey** - Keybind for area map overlay (default: M)
+### v1.0.1 - Initial Release
+- Always-moveable minimap with drag handle
+- Right-click resize toggle functionality
+- Position and size persistence across sessions
+- Area map overlay with M key (configurable)
+- Detailed area maps for all overworld zones
+- Automatic world map fallback for dungeons
 
 ## Source Code
 
