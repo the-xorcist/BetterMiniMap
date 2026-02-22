@@ -1,12 +1,12 @@
 # BetterMinimap
 
-**Version:** 1.0.2  
+**Version:** 1.0.3  
 **Author:** the-xorcist  
-**Release Date:** 2026-02-22
+**Release Date:** 2026-02-24
 
 ## Description
 
-BetterMinimap is a quality-of-life enhancement mod for Erenshor that improves the minimap experience. It allows you to freely move and resize the minimap without entering edit mode, adds a full-screen area map overlay with detailed zone maps, and persists your minimap preferences across game sessions.
+BetterMinimap is a quality-of-life enhancement mod for Erenshor that improves the minimap experience. It allows you to freely move and resize the minimap without entering edit mode, adds an area map overlay system with detailed zone maps, and persists your minimap preferences across game sessions.
 
 ## Features
 
@@ -14,13 +14,13 @@ BetterMinimap is a quality-of-life enhancement mod for Erenshor that improves th
   - Click and drag the blue diamond handle below the minimap
   - Click and drag anywhere inside the minimap circle
 - **Quick Resize** - Right-click the minimap zoom buttons (+/-) to toggle between small and large sizes
-- **Area Map Overlay** - Press M to open a full-screen map with detailed zone layouts
-  - Includes maps for 21 different areas (Azure, Azynthi, Blight, Brake, and more)
-  - Falls back to world map for zones without detailed maps
+- **Area Map Overlay** - Press M to open a detailed area map for the current zone
+  - Includes custom maps for all major zones (Azynthi, Stowaway, Vitheo, Malaroth, and more)
   - Toggle between area map and world map with a button
-  - Drag the map panel to reposition it
+  - Drag the area map to reposition it
+  - Press M or ESC to close
 - **Position & Size Persistence** - Your minimap position, size, and Lock North setting are automatically saved
-- **Configurable Controls** - Customize the area map keybind (default: M)
+- **Lock North Toggle** - Your Lock North preference is remembered between sessions
 
 ## Installation
 
@@ -30,7 +30,7 @@ BetterMinimap is a quality-of-life enhancement mod for Erenshor that improves th
 
 ## Changelog
 
-### v1.0.2 - 2026-02-22
+### v1.0.3 (2026-02-24)
 - Initial release
 
 ## Source Code
